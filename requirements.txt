@@ -1,0 +1,10 @@
+streamlit==1.25.0
+requests==2.31.0
+sentence-transformers==2.2.2
+langchain==0.0.278
+chromadb==0.4.3
+streamlit-geolocation==1.0.2
+torch
+langchain-community
+transformers
+langchain-huggingface

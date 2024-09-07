@@ -22,4 +22,6 @@ Piyasada turistler için gezilecek yerler ve gezi planlamasına yönelik çeşit
 
 ## Uygulamayı Lokalde Çalıştırma
 
-
+öncelikle "pip install -r requirements.txt" komutu çalıştırılarak projede gereken kütüphaneler ve teknolojiler yüklenir.
+ardından rag_apply.ipynb dosyası baştan sona çalıştırılarak embedding verileri üretilir ve kullanıma hazır hake getirilir.
+ardından repo'nun bulunduğu klasörde komut satırı açılarak "streamlit run app.py" komutu çalıştırılır ve uygulama bir tarayıcıda açılarak kullanıma hazır hale gelir.

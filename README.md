@@ -10,12 +10,15 @@ Piyasada turistler için gezilecek yerler ve gezi planlamasına yönelik çeşit
 
 ````
 
-## Takım Adı: Takım ID
-- 👤 Üye 1 
-- 👤 Üye 2
+## Atisoceng: 562120
+- 👤 İsmail Uçuran
+- 👤 Yunus Emre Atalay
 ....
 
 ## Uygulamadan Ekran Görüntüleri
+![image](https://github.com/user-attachments/assets/b337697b-9b84-4275-84b5-91de179aa927)
+![image](https://github.com/user-attachments/assets/5b63f095-0a1c-4dfc-a44f-f59c1abf2654)
+![image](https://github.com/user-attachments/assets/d60623da-1904-4b22-9e8e-d2bd9428123c)
 
 ## Uygulamayı Lokalde Çalıştırma
 

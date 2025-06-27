@@ -204,7 +204,7 @@ with tab1:
 with tab2:
     search_api_url = "https://api.foursquare.com/v3/places/search"
     details_api_url = "https://api.foursquare.com/v3/places/{place_id}/photos"
-    api_key = "fsq3ZqNV3H8BusXm8GdudH5zNDCcLcQ9jnwajNYfApQNAgg="  # API anahtarı kodda yer alıyor
+    api_key = API Key
 
     # Kullanıcıdan sorgu parametrelerini alalım
     query = st.text_input("Yer Araması İçin Anahtar Kelime Girin:", value="kafe")
@@ -291,7 +291,7 @@ with tab3:
     location = streamlit_geolocation()
 
     # Google Maps API Anahtarı
-    GOOGLE_MAPS_API_KEY = "AIzaSyDz9QBazwx70Kt19VrxyYQAtgisK1MNyv0"
+    GOOGLE_MAPS_API_KEY = API Key
 
     # Daha geniş kolonlar için oranları büyük tutuyoruz
     col1, col2 = st.columns([5, 4])  # Sol (harita) için daha büyük kolon, sağ (chatbot) için geniş kolon
@@ -349,7 +349,7 @@ with tab3:
         st.write("### Chatbot")
 
         # Google API key
-        API_KEY = 'AIzaSyDz9QBazwx70Kt19VrxyYQAtgisK1MNyv0'
+        API_KEY = API key
 
         def get_directions(origin, destination, mode="driving", language="tr"):
             url = f'https://maps.googleapis.com/maps/api/directions/json?origin={origin}&destination={destination}&mode={mode}&language={language}&key={API_KEY}'
